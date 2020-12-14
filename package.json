@@ -1,0 +1,41 @@
+{
+  "name": "beer-store",
+  "version": "1.0.0",
+  "description": "beer query application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha tests/*.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickssj222/beer-store.git"
+  },
+  "keywords": [
+    "beer-store"
+  ],
+  "author": "Yun Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickssj222/beer-store/issues"
+  },
+  "homepage": "https://github.com/patrickssj222/beer-store#readme",
+  "dependencies": {
+    "@vue/cli": "^4.5.9",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0",
+    "morgan": "^1.10.0",
+    "nosql": "^6.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6"
+  },
+  "type": "module"
+}
